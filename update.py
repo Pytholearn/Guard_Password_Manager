@@ -14,9 +14,9 @@ from plyer import notification
 
 def check_for_update():
     cwd = os.getcwd()
-    AutoUpdate.CFU.set_url("https://raw.githubusercontent.com/Pytholearn/HAZARD-CHAMELEONS/main/version")
-    download_link = "https://github.com/Pytholearn/HAZARD-CHAMELEONS.git"
-    AutoUpdate.CFU.set_current_version("1.1.3")
+    AutoUpdate.CFU.set_url("https://raw.githubusercontent.com/Pytholearn/Guard_Password_Manager/main/version")
+    download_link = "https://github.com/Pytholearn/Guard_Password_Manager.git"
+    AutoUpdate.CFU.set_current_version("2.5.2")
 
     if not AutoUpdate.CFU.is_up_to_date():
         root = customtkinter.CTk()
